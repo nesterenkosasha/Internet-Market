@@ -1,0 +1,49 @@
+.orderContainer{
+    width: 400px;
+    float: left;
+    margin-left: 60px;
+    margin-top: 40px;
+    border: 1px solid #FDD8DE;
+    background: #FFF9F9;
+    border-radius: 10px;
+    padding: 20px;
+    position: fixed;
+    z-index: 2;
+    color: #F95050
+}
+.orderComponent{
+    margin: 5px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #FDD8DE;
+    border-radius: 5px;
+
+}
+.summary{
+    padding: 10px;
+    font-size: 1.1em;
+    border: 10px solid #FDD8DE;
+    border-radius: 5px;
+}
+.inputComponent{
+    text-align: center;
+    width: 30px;
+    background-color: #FFF9F9;
+    border-radius: 10px;
+    color: #F95050    
+}
+.orderTitle{
+   display: inline-block;
+   margin-left: 20px;
+   width: 180px;
+   overflow: hidden;
+   text-overflow: ellipsis;
+}
+.orderPrice{
+    display: inline-block;
+    width: 40px;
+    margin-right: 20px;
+}
+.btnOrder{
+    margin: 20px;
+}
